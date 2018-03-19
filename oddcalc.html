@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<body>
+		<script>
+			var num1 = prompt("Please input a number:");
+			var num2 = prompt("Please input another number:");
+			
+			var type = prompt("What type of operation do you want (mult/div/mod):");
+			
+			if (type === "mult") {
+				var mult = num1 * num2;
+				alert("Your multiplied number is: " + mult);
+				console.log("Your multiplied number is: " + mult);
+			}
+			
+			else if (type === "div") {
+				var div = num1 / num2;
+				alert("Your divided number is: " + div);
+				console.log("Your divided number is: " + div);
+			}
+			
+			else if (type === "mod") {
+				var mod = num1 % num2;
+				alert("Your modulated number is: " + mod);
+				console.log("Your modulated number is: " + mod);
+			}
+			
+			else {
+				alert("*** invalid operation ***");
+				console.log("*** invalid operation ***");
+			}
+			
+			
+		</script>
+	</body>
+</head>
+</html>

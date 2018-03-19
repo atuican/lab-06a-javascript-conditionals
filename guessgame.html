@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<body>
+		<script>
+			var secret = 666;
+			
+			var info = prompt("Can you guess the secret number?");
+			
+			if (info <= (secret + 1)) {
+				alert("Close, but the number is: " + secret);
+				console.log("Close, but the number is: " + secret);
+			}
+			
+			else if (info >= (secret - 1)) {
+				alert("Close, but the number is: " + secret);
+				console.log("Close, but the number is: " + secret);
+			}
+			
+			else if (info === secret) {
+				alert("You got it!");
+				console.log("You got it!");
+			}
+			
+			else {
+				alert("The actual secret number is: " + secret);
+				console.log("The actual secret number is: " + secret);
+			}
+					
+		</script>
+	</body>
+</head>
+</html>
